@@ -50,16 +50,16 @@ function changeTextColor(event){
     event.target.style.color = event.target.textContent;
   }
 }
-function createButton(event){
-  if (event.target.textContent === "click me!"){
-    let clickMe = document.createElement("button");
-    let para = document.createElement("p");
-    para.textContent = "purple";
-    clickMe.appendChild(para);
-    buttonContainer.appendChild(clickMe);
-    clickMe.textContent = "something";
-  }
-}
+// function createButton(event){
+//   if (event.target.textContent === "click me!"){
+//     let clickMe = document.createElement("button");
+//     let para = document.createElement("p");
+//     para.textContent = "purple";
+//     clickMe.appendChild(para);
+//     buttonContainer.appendChild(clickMe);
+//     clickMe.textContent = "something";
+//   }
+// }
 function AddNewElements(){
   //createElement x3 
   const NewButton = document.createElement("button");
